@@ -1,0 +1,15 @@
+alias lla='ls -lah --group-directories-first'
+alias ll='ls -lh --group-directories-first'
+
+alias cvenv='python3 -m venv .venv'
+alias avenv='source .venv/bin/activate'
+alias dvenv='deactivate'
+
+alias ga='git add'
+alias gb='git branch'
+alias gr='git remote -v'
+alias gc='git commit'
+alias gst='git status'
+alias gsw='git switch'
+alias gcn='git commit --no-edit --amend'
+alias glog='git log --first-parent --pretty=format:"%h || %s || %ae"'

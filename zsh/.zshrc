@@ -117,3 +117,5 @@ source $ZSH/oh-my-zsh.sh
 
 # Source my aliases
 source $HOME/.aliases
+
+bindkey -s ^f "tmux-sessionizer.sh\n"

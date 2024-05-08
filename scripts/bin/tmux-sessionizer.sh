@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Inspired from ThePrimeagen. See:
 # * https://github.com/ThePrimeagen/.dotfiles/blob/master/bin/.local/scripts/tmux-sessionizer
 

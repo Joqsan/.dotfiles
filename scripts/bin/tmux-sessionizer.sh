@@ -18,7 +18,7 @@ selected_name=$(basename "$selected" | tr . _)
 
 # A starting point to adding worktrees to the workflow.
 # Maybe I don't need this
- if [ "$(git -C $selected rev-parse --is-bare-repository)" == true ] ; then
+ if [ "$(git -C $selected rev-parse --is-bare-repository 2>/dev/null)" == true ] ; then
 	selected_branch=$(git -C $selected for-each-ref --format='%(refname:short)' refs/heads/ | fzf --header='This is a bare repo. Select a worktree:' --reverse --header-first)
 	
 	if [[ ! -z $selected_branch ]]; then

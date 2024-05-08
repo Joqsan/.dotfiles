@@ -3,7 +3,7 @@
 # Inspired from ThePrimeagen. See:
 # * https://github.com/ThePrimeagen/.dotfiles/blob/master/bin/.local/scripts/tmux-sessionizer
 
-selected=$(find repos -type d -mindepth 1 -maxdepth 1 | fzf --header='Select directory to start a new session on:' --reverse --header-first)
+selected=$(find repos -mindepth 1 -maxdepth 1 -type d | fzf --header='Select directory to start a new session on:' --reverse --header-first)
 
 # echo "You selected $selected"
 

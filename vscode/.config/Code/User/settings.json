@@ -1,0 +1,26 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "editor.inlayHints.enabled": "off",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f"
+    },
+    "editor.wordWrap": "off",
+    "diffEditor.wordWrap": "off",
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairs": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "debug.onTaskErrors": "abort",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "redhat.telemetry.enabled": false,
+    "editor.fontFamily": "JetbrainsMono Nerd Font",
+    "terminal.integrated.fontFamily": "JetbrainsMono Nerd Font",
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.mergeEditor": true,
+    "window.zoomLevel": 2,
+    "workbench.editor.enablePreview": false,
+    "remote.autoForwardPortsSource": "hybrid"
+}

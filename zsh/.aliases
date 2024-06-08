@@ -1,5 +1,6 @@
-alias lla='ls -lah --group-directories-first'
-alias ll='ls -lh --group-directories-first'
+alias cat=bat
+
+alias lla='ll -a'
 
 alias cvenv='python3 -m venv .venv'
 alias avenv='source .venv/bin/activate'
@@ -12,8 +13,7 @@ alias gc='git commit'
 alias gst='git status'
 alias gsw='git switch'
 alias gcn='git commit --no-edit --amend'
-alias glog='git log --first-parent --pretty=format:"%h || %s || %ae"'
-alias gg="git --no-pager log -15 --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
-
+alias glog='git log -10 --first-parent --pretty=format:"%h || %s || %ae"'
+alias gg="git --no-pager log -15 --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative --all"
 
 alias dils='docker images --format "{{.ID}} | {{.Size}}\t| {{.CreatedSince}}:\t {{.Repository}}"'

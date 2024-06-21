@@ -22,5 +22,6 @@
     "git.mergeEditor": true,
     "window.zoomLevel": 2,
     "workbench.editor.enablePreview": false,
-    "remote.autoForwardPortsSource": "hybrid"
+    "remote.autoForwardPortsSource": "hybrid",
+    "explorer.confirmDragAndDrop": false
 }

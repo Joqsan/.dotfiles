@@ -119,9 +119,10 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.aliases
 
 bindkey -s ^f "tmux-sessionizer.sh\n"
-export PYENV_ROOT="/home/joqsan/.pyenv"
+export PYENV_ROOT="/home/$USER/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export PATH="$PATH:/opt/nvim-linux64/bin"
+
